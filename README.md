@@ -3,11 +3,11 @@ The code uses send to simulate RESTFul API with Python and Flask
 
 1. Installation
 
-+ Python Version
+a) Python Version
 
 We recommend using the latest version of Python 3. Flask supports Python 3.5 and newer, Python 2.7, and PyPy.
 
-+ Install Flask, jsonjfy
+b) Install Flask, jsonjfy
 
 Use the following command to install Flask, jsonjfy:
 
