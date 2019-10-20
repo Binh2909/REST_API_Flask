@@ -11,15 +11,13 @@ We recommend using the latest version of Python 3. Flask supports Python 3.5 and
 
 Use the following command to install Flask, jsonjfy:
 
-$ pip install Flask
++ $ pip install Flask
 
-$ pip install jsonify
++ $ pip install jsonify
 
 2. How to use it?
 
-Use command-line to run source codes:
-
-$ python flaskapi.json 
+Use command-line to run source codes: $ python flaskapi.json 
 
 After that, open http://127.0.0.1:8080 to see the response.
 (You can use Postman to get response)
