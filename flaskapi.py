@@ -1,14 +1,16 @@
 from flask import Flask, jsonify, request
-import csv
 import json
+import sys, os
 
 #import objects from the Flask model
 app = Flask(__name__) #define app using Flask
 
-file_path='C:\\Users\\BinBin\\testing\\data.json'
+file_path= os.path.dirname(sys.argv[0]) + '\\data.json'
 
 @app.route('/', methods=['GET'])
 def test():
+	execdir = os.path.dirname(sys.argv[0])
+	print(execdir)
 	return jsonify({'message' : 'It works!'})
 	
 @app.route('/info', methods=['GET'])
@@ -23,7 +25,6 @@ def returnName():
 	return jsonify(list[0])
 	#if array['name'] == name:
 	#	return jsonify({'name' : array['name']})
-	#return jsonify({'message' : "Bad Request!!!" })
 	
 @app.route('/info/cars/<string:name>', methods=['GET'])
 def returnOne(name):
