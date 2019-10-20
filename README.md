@@ -12,6 +12,7 @@ $ pip install Flask
 $ pip install jsonify
 
 2. How to use it?
+
 Use command-line to run source codes:
 $ python flaskapi.json 
 After that, open http://127.0.0.1:8080 to see the response.
