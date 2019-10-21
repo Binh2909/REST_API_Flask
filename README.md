@@ -20,7 +20,7 @@ Use the following command to install Flask, jsonjfy:
 Use command-line to run source codes: $ python flaskapi.json 
 
 After that, open http://127.0.0.1:8080 to see the response.
-(You can use Postman to get response)
+(You can use Postman tool to get response)
 
 
 
